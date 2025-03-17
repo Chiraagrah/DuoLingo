@@ -1,4 +1,5 @@
 import {Sidebar} from "@/components/sidebar";
+import { MobileHeader } from "@/components/mobile-header";
 
 
 type Props = {
@@ -10,9 +11,10 @@ const MainLayout = ({
 }: Props) => {
     return(
         <>
+            <MobileHeader />
             <Sidebar className="hidden lg:flex"/>
-            <main className="pl-0 lg:pl-[256px] h-full">
-                <div className="bg-red-500 h-full">
+            <main className="pl-0 lg:pl-[256px] h-full pt-[50px] lg:pt-0">
+                <div className="max-w-[1050px] mx-auto pt-6 h-full">
                     {children}
                 </div>
             </main>

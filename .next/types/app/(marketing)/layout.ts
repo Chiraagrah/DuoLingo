@@ -1,4 +1,4 @@
-// File: C:\Users\chira\Desktop\Project\Duo-Clone\duo\app\(marketing)\layout.tsx
+// File: C:\Users\chira\Desktop\Project\duo\app\(marketing)\layout.tsx
 import * as entry from '../../../../app/(marketing)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

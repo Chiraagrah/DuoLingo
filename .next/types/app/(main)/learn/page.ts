@@ -1,4 +1,4 @@
-// File: C:\Users\chira\Desktop\Project\Duo-Clone\duo\app\(main)\learn\page.tsx
+// File: C:\Users\chira\Desktop\Project\duo\app\(main)\learn\page.tsx
 import * as entry from '../../../../../app/(main)/learn/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
