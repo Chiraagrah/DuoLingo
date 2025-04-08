@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
+
 import "./globals.css";
 import {
   ClerkProvider,
@@ -29,6 +31,7 @@ export default function RootLayout({
         <body
           className={`${font.className} ${font.className} antialiased`}
         >
+          <Toaster />
           {children}
         </body>
       </html>
