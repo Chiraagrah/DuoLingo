@@ -1,4 +1,4 @@
-"user-server";
+"use server";
 
 import { getUserProgress, getCourseById } from "@/db/queries";
 import {auth, currentUser} from "@clerk/nextjs/server";
