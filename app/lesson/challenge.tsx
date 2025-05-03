@@ -32,7 +32,7 @@ export const Challenge =({
                     id={option.id}
                     text={option.text}
                     imageSrc={option.imageSrc}
-                    shortcut={'${i+1}'}
+                    shortcut={`${i+1}`}
                     selected={selectedOption === option.id}
                     onClick={()=> onSelect(option.id)}
                     status = {status}
