@@ -13,12 +13,17 @@
         "app/lesson/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
+        },
+        "app/(main)/courses/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
         }
       },
       "layer": {
         "app/(marketing)/page": "rsc",
         "app/(main)/learn/page": "rsc",
-        "app/lesson/page": "rsc"
+        "app/lesson/page": "rsc",
+        "app/(main)/courses/page": "rsc"
       }
     },
     "7f977fe221184275a2e23424dd0f517937ae2f3709": {
@@ -34,12 +39,17 @@
         "app/lesson/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
+        },
+        "app/(main)/courses/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
         }
       },
       "layer": {
         "app/(marketing)/page": "rsc",
         "app/(main)/learn/page": "rsc",
-        "app/lesson/page": "rsc"
+        "app/lesson/page": "rsc",
+        "app/(main)/courses/page": "rsc"
       }
     },
     "7ffa9892351557bf95a90448deee87946792d82758": {
@@ -55,12 +65,17 @@
         "app/lesson/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
+        },
+        "app/(main)/courses/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f7f37b7441eaaf231b388b4dfe625467c320a2533%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f977fe221184275a2e23424dd0f517937ae2f3709%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227ffa9892351557bf95a90448deee87946792d82758%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
         }
       },
       "layer": {
         "app/(marketing)/page": "rsc",
         "app/(main)/learn/page": "rsc",
-        "app/lesson/page": "rsc"
+        "app/lesson/page": "rsc",
+        "app/(main)/courses/page": "rsc"
       }
     },
     "7fc31a3312b088082abdd8bde40c99376b60a18173": {
@@ -76,12 +91,28 @@
         "app/lesson/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
+        },
+        "app/(main)/courses/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
         }
       },
       "layer": {
         "app/(marketing)/page": "action-browser",
         "app/(main)/learn/page": "action-browser",
-        "app/lesson/page": "action-browser"
+        "app/lesson/page": "action-browser",
+        "app/(main)/courses/page": "action-browser"
+      }
+    },
+    "7f927c95b209883863077463064c20b11963d0d065": {
+      "workers": {
+        "app/(main)/courses/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/courses/page": "action-browser"
       }
     }
   },
