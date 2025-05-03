@@ -28,7 +28,6 @@ export const SidebarItem =({
                 width={32}/>
                 {label}
             </Link>
-            
         </Button>
     );
 };
