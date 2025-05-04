@@ -104,11 +104,11 @@
           "async": false
         },
         "app/lesson/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cchallenge-progress.ts%22%2C%5B%7B%22id%22%3A%227fe452a28b9e940d32208922de28bf80e708755555%22%2C%22exportedName%22%3A%22upsertChallengeProgress%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
         "app/(main)/courses/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
         "app/_not-found/page": {
@@ -127,12 +127,44 @@
     "7f927c95b209883863077463064c20b11963d0d065": {
       "workers": {
         "app/(main)/courses/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/lesson/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cchallenge-progress.ts%22%2C%5B%7B%22id%22%3A%227fe452a28b9e940d32208922de28bf80e708755555%22%2C%22exportedName%22%3A%22upsertChallengeProgress%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(main)/courses/page": "action-browser"
+        "app/(main)/courses/page": "action-browser",
+        "app/lesson/page": "action-browser"
+      }
+    },
+    "7fe452a28b9e940d32208922de28bf80e708755555": {
+      "workers": {
+        "app/lesson/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cchallenge-progress.ts%22%2C%5B%7B%22id%22%3A%227fe452a28b9e940d32208922de28bf80e708755555%22%2C%22exportedName%22%3A%22upsertChallengeProgress%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/lesson/page": "action-browser"
+      }
+    },
+    "7f36da7889f2afb12f2577994d350aa9038fd84042": {
+      "workers": {
+        "app/(main)/courses/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/lesson/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fc31a3312b088082abdd8bde40c99376b60a18173%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cchallenge-progress.ts%22%2C%5B%7B%22id%22%3A%227fe452a28b9e940d32208922de28bf80e708755555%22%2C%22exportedName%22%3A%22upsertChallengeProgress%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Cchira%5C%5CDesktop%5C%5CProject%5C%5Cduo%5C%5Cactions%5C%5Cuser-progress.ts%22%2C%5B%7B%22id%22%3A%227f36da7889f2afb12f2577994d350aa9038fd84042%22%2C%22exportedName%22%3A%22reduceHearts%22%7D%2C%7B%22id%22%3A%227f927c95b209883863077463064c20b11963d0d065%22%2C%22exportedName%22%3A%22upsertUserProgress%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/courses/page": "action-browser",
+        "app/lesson/page": "action-browser"
       }
     }
   },
