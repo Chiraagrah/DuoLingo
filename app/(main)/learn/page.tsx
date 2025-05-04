@@ -6,7 +6,8 @@ import {
     getUserProgress,
     getUnits,
     getCourseProgress,
-    getLessonPercentage 
+    getLessonPercentage, 
+    getUserSubscription
 } from "@/db/queries";
 import { redirect } from "next/navigation";
 import { Unit } from "./unit";
@@ -16,18 +17,21 @@ const LearnPage = async () => {
     const unitsData = getUnits();
     const CourseProgressData = getCourseProgress();
     const lessonPercentageData = getLessonPercentage();
+    const userSubscriptionData = getUserSubscription();
 
     const [
         userProgress,
         units,
         courseProgress,
         LessonPercentage,
+        userSubscription,
     ] = await Promise.all(
         [
             userProgressData,
             unitsData,
             CourseProgressData,
             lessonPercentageData,
+            userSubscriptionData,
         ]
     );
 
@@ -44,7 +48,7 @@ const LearnPage = async () => {
                     activeCourse={userProgress.activeCourse}
                     hearts={userProgress.hearts}
                     points={userProgress.points}
-                    hasActiveSubscription={false}
+                    hasActiveSubscription={!!userSubscription?.isActive}
                 />
                 My Sticky Sidebar
             </StickyWrapper>
