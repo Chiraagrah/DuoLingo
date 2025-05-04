@@ -1,7 +1,3 @@
 {
-  "/(main)/learn/page": "app/(main)/learn/page.js",
-  "/(main)/courses/page": "app/(main)/courses/page.js",
-  "/(main)/shop/page": "app/(main)/shop/page.js",
-  "/lesson/page": "app/lesson/page.js",
-  "/(marketing)/page": "app/(marketing)/page.js"
+  "/api/webhooks/stripe/route": "app/api/webhooks/stripe/route.js"
 }
