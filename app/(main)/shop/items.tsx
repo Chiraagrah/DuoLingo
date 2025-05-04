@@ -68,7 +68,6 @@ export const Items = ({
                                 <p>
                                     {POINTS_TO_REFILL}
                                 </p>
-
                             </div>
                         )
                     }
