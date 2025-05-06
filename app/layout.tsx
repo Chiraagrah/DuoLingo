@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { ExitModal } from "@/components/modals/exit-modal";
 import { HeartsModal } from "@/components/modals/hearts-modal";
 import { PracticeModal } from "@/components/modals/practice-modal";
+import Chatbot from "@/components/Chatbot";
 
 import "./globals.css";
 import {
@@ -40,6 +41,7 @@ export default function RootLayout({
           <HeartsModal />
           <PracticeModal />
           {children}
+          <Chatbot />
         </body>
       </html>
 

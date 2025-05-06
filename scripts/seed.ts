@@ -360,8 +360,8 @@ const main = async () => {
             { challengeId: 6002, text: "q and r", correct: true },
 
             // Challenge 6003
-            { challengeId: 6003, text: "q = 10, r = 3", correct: false },
-            { challengeId: 6003, text: "q = 9, r = 3", correct: true },
+            { challengeId: 6003, text: "q = 10, r = 3", correct: true },
+            { challengeId: 6003, text: "q = 9, r = 3", correct: false },
             { challengeId: 6003, text: "q = 8, r = 2", correct: false },
 
             // Challenge 6004
