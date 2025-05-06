@@ -43,10 +43,16 @@ export async function POST(req: Request) {
   }
 
   if(event.type === "invoice.payment_succeeded"){
-    const subscription = await stripe.subscriptions.retrieve(
-        session.subscription as string
-    );
+    const invoice = event.data.object as Stripe.Invoice;
 
+    const subscriptionId =
+      invoice.parent?.subscription_details?.subscription;
+
+    if (!subscriptionId || typeof subscriptionId !== "string") {
+      return new NextResponse("Missing subscription ID", { status: 400 });
+    }
+
+    const subscription = await stripe.subscriptions.retrieve(subscriptionId);
     await db.update(userSubscription).set({
         stripePriceId: subscription.items.data[0].price.id,
         stripeCurrentPeriodEnd: new Date(
