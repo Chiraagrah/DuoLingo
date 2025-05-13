@@ -6,10 +6,11 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Chatbot() {
-  const pathname = usePathname(); // e.g., /learn, /challenge
+  const pathname = usePathname();
   const [messages, setMessages] = useState<{ text: string; sender: 'user' | 'bot' }[]>([]);
   const [input, setInput] = useState('');
   const [open, setOpen] = useState(false);
+  const [nudgeGiven, setNudgeGiven] = useState(false); // ✅ State to track if nudge is given
   const idleTimer = useRef<NodeJS.Timeout | null>(null);
 
   const addMessage = (text: string, sender: 'user' | 'bot') => {
@@ -43,12 +44,25 @@ export default function Chatbot() {
 
   const resetIdleTimer = () => {
     if (idleTimer.current) clearTimeout(idleTimer.current);
+
+    // Reset the nudge state on interaction
+    setNudgeGiven(false);
+
     idleTimer.current = setTimeout(() => {
-      addMessage("Hey! Duo's still here 🐦 Ready to help anytime.", 'bot');
-      if ('speechSynthesis' in window) {
-        speechSynthesis.speak(new SpeechSynthesisUtterance("Hey! I'm still here, ready when you are!"));
+      // Trigger nudge only if it hasn't been given yet
+      if (!nudgeGiven && open) {
+        addMessage("Hey! Duo's still here 🐦 Ready to help anytime.", 'bot');
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const utterance = new SpeechSynthesisUtterance(
+            "Hey! I'm still here, ready when you are!"
+          );
+          utterance.lang = 'en-US';
+          speechSynthesis.speak(utterance);
+        }
+        setNudgeGiven(true); // ✅ Set nudge as given
       }
-    }, 60000);
+    }, 60000); // Nudge after 1 minute of inactivity
   };
 
   // ✅ Effect for speech cancellation when chatbot closes
@@ -69,7 +83,7 @@ export default function Chatbot() {
       window.removeEventListener('keydown', resetIdleTimer);
       if (idleTimer.current) clearTimeout(idleTimer.current);
     };
-  }, []);
+  }, [open]);
 
   return (
     <div className={styles.chatbotWrapper}>
