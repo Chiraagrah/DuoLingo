@@ -1,5 +1,26 @@
 {
-  "/(main)/learn/page": "app/(main)/learn/page.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/webhooks/stripe/route": "app/api/webhooks/stripe/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/challenges/route": "app/api/challenges/route.js",
+  "/api/challengeOptions/route": "app/api/challengeOptions/route.js",
+  "/api/challengeOptions/[challengeOptionId]/route": "app/api/challengeOptions/[challengeOptionId]/route.js",
+  "/api/challenges/[challengeId]/route": "app/api/challenges/[challengeId]/route.js",
+  "/api/courses/route": "app/api/courses/route.js",
+  "/api/courses/[courseId]/route": "app/api/courses/[courseId]/route.js",
+  "/api/lessons/route": "app/api/lessons/route.js",
+  "/api/lessons/[lessonId]/route": "app/api/lessons/[lessonId]/route.js",
+  "/api/units/[unitId]/route": "app/api/units/[unitId]/route.js",
+  "/api/units/route": "app/api/units/route.js",
+  "/admin/page": "app/admin/page.js",
+  "/buttons/page": "app/buttons/page.js",
+  "/(main)/leaderboard/page": "app/(main)/leaderboard/page.js",
   "/(main)/courses/page": "app/(main)/courses/page.js",
-  "/(main)/shop/page": "app/(main)/shop/page.js"
+  "/(main)/learn/page": "app/(main)/learn/page.js",
+  "/(main)/quests/page": "app/(main)/quests/page.js",
+  "/(main)/shop/page": "app/(main)/shop/page.js",
+  "/lesson/[lessonId]/page": "app/lesson/[lessonId]/page.js",
+  "/(marketing)/page": "app/(marketing)/page.js",
+  "/lesson/page": "app/lesson/page.js"
 }
